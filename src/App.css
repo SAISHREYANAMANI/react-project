@@ -16,7 +16,24 @@ canvas {
   font-weight: bold;
   font-size: 20px;
 }
+h2{
+  margin-top:-80px;
+  margin-bottom: 20px;
 
+}
+p{
+  margin-top:50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-style: italic;
+}
+.image{
+  border:5px solid blue;
+  height:450px;
+  width:600px;
+
+  
+}
 .newPostCard {
   height: 100vh;
   display: flex;
@@ -25,14 +42,38 @@ canvas {
   background-image: url(./images/geometric-blue-background-desktop-wallpaper-vector_53876-135927.avif);
   background-repeat: no-repeat;
   background-size: cover;
+  /* border:1px solid green; */
+  padding:10px;
+  gap:10px
 }
 
+.Post{
+  justify-items: flex-end;
+  align-items: flex-start;
+  color:white;
+  height:520px;
+  width:50%;
+  padding:20px;
+  margin-left: 0px;
+}
+.post2{
+  background-image: url('./images/Face_Emotion_Recognition_Project.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:white;
+  height:100%;
+  width:50%;
+  margin-left: 10px;
+  margin-right:10px;
+}
 .addPost {
   display: flex;
+  justify-content: center;
   border:1px solid white;
   padding:5px;
-  border-radius: 12px 22px;
   box-shadow: 2px 3px white;
+  width:150px;
+  margin-top:5px;
 }
 
 label {
@@ -62,7 +103,6 @@ label {
 
 button {
   border: none;
-  /* padding:  10px; */
   border-radius: 5px;
   color: black;
   width:65px;
