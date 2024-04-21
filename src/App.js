@@ -34,13 +34,12 @@ function App() {
            
           <div className="Post">
           <h2>FACE DETECTION USING FACE API.JS</h2>
-          <p>Face-api is a JavaScript library created by Vincent Mühler., to detect faces via browser. It is built over tensorflow.js core API. It supports Face Detection, Face Recognition, Face Expression, Age, and Gender Detection.</p>
-      <div class="image"><img src="https://user-images.githubusercontent.com/31125521/50575270-f501d080-0dfb-11e9-9676-8f419efdade4.png" height={450} width={600}/></div>
+      {/* <div class="image"><img src="https://user-images.githubusercontent.com/31125521/50575270-f501d080-0dfb-11e9-9676-8f419efdade4.png"/></div> */}
+      <div class="image"><img src="https://dce0qyjkutl4h.cloudfront.net/wp-content/webp-express/webp-images/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png.webp"/></div>
        <div className="addPost">
         
             <div className="postForm">
-              <label htmlFor="file"> GET STARTED
-              </label>
+              <label htmlFor="file"> GET STARTED</label>
               <input
                 onChange={(e) => setFile(e.target.files[0])}
                 id="file"
